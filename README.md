@@ -4,7 +4,7 @@ A Docker container Sphinx environment for generating html/pdf from mark down fil
 
 # Running the container
 
-    https://github.com/RamSailopal/Sphinx
+    git clone https://github.com/RamSailopal/Sphinx
     cd Sphinx
     docker run --name Vista-Sphinx -d -v "$PWD/share:/home/sphinx" -p "3090:80" --entrypoint /home/sphinx/entrypoint.sh ubuntu
 
