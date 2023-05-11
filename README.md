@@ -18,7 +18,7 @@ To build html, run
     
     docker exec -it Vista-Sphinx /home/sphinx/build.sh html
 
-Changes with then be viewable at http://locahost:3090
+Changes will then be viewable at http://locahost:3090
 
 To build pdf:
 
